@@ -1,0 +1,16 @@
+# Java
+target/
+build/
+*.class
+*.log
+*.iml
+/.idea
+# Node
+node_modules/
+dist/
+.next/
+.env
+# OS
+.DS_Store
+# Docker volumes (optional)
+data/
