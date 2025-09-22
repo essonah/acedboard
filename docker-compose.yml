@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:15
+    container_name: acedboard-db
+    environment:
+      POSTGRES_USER: aced
+      POSTGRES_PASSWORD: acedpw
+      POSTGRES_DB: acedboard
+    ports: ["5433:5432"]
+    volumes:
+      - /Users/amandaadjei/Desktop/acedboard/data/postgres:/var/lib/postgresql/data
