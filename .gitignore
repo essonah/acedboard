@@ -1,3 +1,40 @@
+# OS
+.DS_Store
+
+# IDE/Editor
+.idea/
+.vscode/
+*.iml
+
+# Java/Gradle builds
+build/
+out/
+target/
+.gradle/
+server/acedboard-server/build/
+server/acedboard-server/.gradle/
+
+# Node/Frontend (if present)
+web/node_modules/
+web/.next/
+web/dist/
+web/build/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Local database/data volumes
+data/postgres/
+
+# Docker overrides/local configs
+docker-compose.override.yml
+
 # Java
 target/
 build/
